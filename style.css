@@ -25,7 +25,7 @@
 
 .logo{
     height: 50px;
-    width: 100%;
+    width: 100px;
     background-image: url("images/nav_logo.png");
     background-size: cover;
 }
@@ -200,7 +200,7 @@
     background-image: linear-gradient(to bottom, rgba(255, 98, 1), rgba(227, 230, 230));
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 /** Boxes**/
@@ -304,4 +304,111 @@
 .item1xhalf p {
     font-size: 0.94rem;    
     margin-top: 5px;
+}
+
+/** Sign-in section **/
+
+.sign-in{
+    border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.up-button{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-in button{
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    background-color: #FFD814;
+    height: 30px;
+    width: 15%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.below-button{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+/** Foot-Panel 1 **/
+
+.foot-panel1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475A;
+    color: white;
+    height: 49px;
+    font-size: 0.85rem;
+}
+
+/** Foot-Panel 2**/
+
+.foot-panel2{
+    background-color: #222F3D;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+ul p{
+    color: #FFFFFf;
+    font-size: 1rem;
+    font-weight: 700;
+    margin:     6px 0px 14px;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    color: #DDDDDD;
+    margin: 0px 0px 10px;
+}
+
+/** Foot-Panel 3 **/
+
+.foot-panel3{
+    background-color: #222F3D;
+    border-top: 3px solid #2F3A49;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Foot-Panel 4**/
+
+.foot-panel4{
+    color: #DDDDDD;
+    background-color: #131A22;
+    height: 78px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.terms{
+    padding-top: 25px;
+}
+
+.terms a{
+    margin-left: 15px;
+}
+
+.copyright{
+    padding-top: 5px;
 }
