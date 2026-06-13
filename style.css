@@ -178,8 +178,8 @@
     background-color: #F5F6F6;
     color: black;
     height: 40px;
-    width: 95%;
-    margin-bottom: 20px;
+    width: 97%;
+    margin-bottom: 10px;
     display: flex;
     font-size: 0.90rem;
     justify-content: center;
@@ -189,4 +189,119 @@
 .hero-message a{
     text-decoration: none;
     color: #2162A1;
+}
+
+/** Shop-section **/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom, rgba(255, 98, 1), rgba(227, 230, 230));
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+/** Boxes**/
+
+.box{
+    background-color: #FFFFFF;
+    height: 390px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a{
+    text-decoration: none; 
+    color: #2162A1;
+}
+
+.box-content h2{
+    font-size: 1.3rem;
+}
+
+/** Box-1 **/
+
+.box1x1-image{
+    background-size: cover;
+    height: 300px; 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/** Box-2,3,4,6,7,8 **/
+
+.box4x4-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item4x4 {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.item4x4 .image {
+    height: 115px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item4x4 p {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+/** Box-5 **/
+
+.box1x3-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item1x3 {
+    width: 33%;
+    margin-bottom: 25px;
+}
+
+.item1xhalf {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.item1x3 .image {
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1xhalf .image {
+    height: 145px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1x3 p {
+    font-size: 0.94rem;
+    margin-top: 5px;
+}
+
+.item1xhalf p {
+    font-size: 0.94rem;    
+    margin-top: 5px;
 }
