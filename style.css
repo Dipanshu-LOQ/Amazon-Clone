@@ -86,6 +86,7 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+    padding-left: 10px;
 }
 
 .search-icon{
@@ -128,7 +129,7 @@
 }
 
 .nav-cart{
-    font-size: 0.85rem;
+    font-size: 0.90rem;
     font-weight: 700;
 }
 
@@ -155,7 +156,37 @@
 
 .panel-options p{
     color: white;
-    font-size: 0.85rem;
+    font-size: 0.90rem;
     font-weight: 549;
     margin-right: 20px;
+}
+
+/** Hero-Section **/
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color: #F5F6F6;
+    color: black;
+    height: 40px;
+    width: 95%;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 0.90rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-message a{
+    text-decoration: none;
+    color: #2162A1;
 }
