@@ -26,7 +26,7 @@
 .logo{
     height: 50px;
     width: 100%;
-    background-image: url("nav_logo.png");
+    background-image: url("images/nav_logo.png");
     background-size: cover;
 }
 
@@ -164,7 +164,7 @@
 /** Hero-Section **/
 
 .hero-section{
-    background-image: url("hero_image.jpg");
+    background-image: url("images/hero_image.jpg");
     background-size: cover;
     height: 300px;
     display: flex;
